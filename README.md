@@ -1,5 +1,6 @@
 # Spring-microservices-music-case-study
-Created 2 simple microservices: Artist-MS and Song-MS using **Spring Boot**. Performed CRUD operations and built communication between the two microservices.
+Created 2 simple microservices: Artist-MS and Song-MS using **Spring Boot**. 
+Performed CRUD operations and built communication between the two microservices.
 
 ## Components used
 - Maven: For dependency management.
