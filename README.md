@@ -1,5 +1,5 @@
 # Spring-microservices-music-case-study
-Created 2 simple microservices: Arist-MS and Song-MS using **Spring Boot**.
+Created 2 simple microservices: Artist-MS and Song-MS using **Spring Boot**.
 
 ## Components used
 - Maven: For dependency management.
@@ -7,8 +7,6 @@ Created 2 simple microservices: Arist-MS and Song-MS using **Spring Boot**.
 - Hystrix: For fault tolerance.
 - Ribbon: For load balancing.
 - Data JPA: For MYSQL integration and connection.
-- Eureka server and Eureka client
-- API gateway
 
 ## Other components
 - Created a Eureka server and embedded the microservices Song-MS and Artist-MS as Eureka client.
