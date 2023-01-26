@@ -1,0 +1,25 @@
+server:
+  port: 7070
+#
+#server:
+#  port: 7060
+#  
+#server:
+#  port: 7070 
+#  
+
+spring:
+  application:
+    name: ARTIST-MS
+    
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/music_case_study
+    username: root
+    password: Sunrise.123
+    
+  jpa:
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update
